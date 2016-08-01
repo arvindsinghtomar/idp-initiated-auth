@@ -10,4 +10,10 @@
   - Validation of SAML Assertion.
   - Dynamic user enrollment if user dosen't exists in SP.
   - Create Gluu server session.
-  - SP redirects user to website 2.
+  - Gluu SP redirects user to website 2.
+ 
+First the user is sent to Gluu server IDP where user can login to the system. 
+After user is successfully authenticated user is taken to home of Gluu home page. 
+On homepage user will be shown the websites which have been set up to work with Gluu SP. 
+A user can click on these websites to request that website and will be redirected to Gluu SP where dynamic enrolment of the user will be done if user doesn't exists in the system. 
+Then user will be redirected to the website which was requested.
