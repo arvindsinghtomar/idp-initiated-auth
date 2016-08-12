@@ -6,7 +6,7 @@ There are two setups of Gluu server
 
 Here https://gluu.local.org works as SP and https://gluu.idp.org is configured as IDP.
 
-#### Followed This Link For Shiboleth Configuration
+#### Followed This Link For Shibboleth Configuration
 https://gluu.org/docs/integrate/ubuntu-shib-apache/
 
 Followed all the steps in the link for configuration.
@@ -16,7 +16,7 @@ After completeing all the steps, testing the printHeaders.py script didn't gave 
 ![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/img/ErrorInMataData.png)
 
 #### Followed This Link For Configuring outbound-SAML
-Followed all the steps in this link for configing outbound-saml
+Followed all the steps in this link for configuring outbound-saml
 
 https://www.gluu.org/docs/integrate/outbound-saml/
 
@@ -24,7 +24,7 @@ Addes trust relationship with IDP (gluu.idp.org)
 ![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/img/AddedTrustRelationships.png)
 
 #### Followed This Link For Configuring inbound-SAML
-Followed all the steps in this link for configing inbound-saml
+Followed all the steps in this link for configuring inbound-saml
 
 https://www.gluu.org/docs/integrate/inbound-saml/
 
@@ -37,13 +37,14 @@ Added SP requester
 Added SP selector
 ![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/img/SAMLSelector.png)
 
-#### For Testing And Configuring IDP Followed Bellow Link
+#### For Testing And Configuring IDP Followed Below Link
 https://ox.gluu.org/doku.php?id=asimba:saml_script_end_to_end
 
-After configuration according to this link, facing the same problem agin unable to locate metadata for IDP.
+After configuration according to this link, facing the same problem again unable to locate metadata for IDP.
 
 ##### Error
 ![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/img/ErrorInMataData.png)
+
 
 
 
