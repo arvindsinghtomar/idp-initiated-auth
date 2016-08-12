@@ -18,3 +18,25 @@ On homepage user will be shown the websites which have been set up to work with 
 A user can click on these websites to request that website and will be redirected to Gluu SP where dynamic enrolment of the user will be done if user doesn't exists in the system. 
 Then user will be redirected to the website which was requested.
 
+### IDP Auth
+
+#### Followed This Link For Shiboleth Config
+
+https://gluu.org/docs/integrate/ubuntu-shib-apache/
+
+##### Response
+![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/ErrorInMataData.png)
+
+#### Followed This Link For Configuring outbound-SAML
+
+https://www.gluu.org/docs/integrate/outbound-saml/
+
+![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/AddedTrustRelationships.png)
+
+#### For Testing IDP Followed Bellow Link
+
+https://ox.gluu.org/doku.php?id=asimba:saml_script_end_to_end
+
+![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/IDP%20configuration%20inn%20SP.png)
+![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/Added%20SP%20requester%20in%20IDP.png)
+
