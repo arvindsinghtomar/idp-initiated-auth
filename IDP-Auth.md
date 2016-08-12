@@ -20,6 +20,7 @@ Followed all the steps in this link for configing outbound-saml
 
 https://www.gluu.org/docs/integrate/outbound-saml/
 
+Addes trust relationship with IDP (gluu.idp.org)
 ![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/img/AddedTrustRelationships.png)
 
 #### Followed This Link For Configuring inbound-SAML
@@ -36,8 +37,14 @@ Added SP requester
 Added SP selector
 ![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/img/SAMLSelector.png)
 
-#### For Testing IDP Followed Bellow Link
-
+#### For Testing And Configuring IDP Followed Bellow Link
 https://ox.gluu.org/doku.php?id=asimba:saml_script_end_to_end
+
+After configuration according to this link, facing the same problem agin unable to locate metadata for IDP.
+
+##### Error
+![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/img/ErrorInMataData.png)
+
+
 
 
