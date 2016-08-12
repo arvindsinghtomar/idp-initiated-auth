@@ -21,10 +21,16 @@ https://www.gluu.org/docs/integrate/outbound-saml/
 
 ![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/AddedTrustRelationships.png)
 
+#### Followed This Link For Configuring inbound-SAML
+
+https://www.gluu.org/docs/integrate/inbound-saml/
+
+
+![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/IDP%20configuration%20inn%20SP.png)
+![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/Added%20SP%20requester%20in%20IDP.png)
+
 #### For Testing IDP Followed Bellow Link
 
 https://ox.gluu.org/doku.php?id=asimba:saml_script_end_to_end
 
-![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/IDP%20configuration%20inn%20SP.png)
-![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/Added%20SP%20requester%20in%20IDP.png)
 
