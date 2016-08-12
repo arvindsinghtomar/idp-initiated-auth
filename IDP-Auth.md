@@ -1,30 +1,18 @@
-# IDP Initiated Authentication
-
-### Flow Diagram:
-![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/GluuIDPInitiatedAuth.png)
-
-#### Sequence:
-  - User logs in to Gluu IDP.
-  - User is show the list of websites that are setup with Gluu SP.
-  - User can click login button on that website and redirect to Gluu SP with relay_state URL.
-  - Validation of SAML Assertion.
-  - Dynamic user enrollment if user dosen't exists in SP.
-  - Create Gluu server session.
-  - Gluu SP redirects user to website 2.
- 
-First the user is sent to Gluu server IDP where user can login to the system. 
-After user is successfully authenticated user is taken to home of Gluu home page. 
-On homepage user will be shown the websites which have been set up to work with Gluu SP. 
-A user can click on these websites to request that website and will be redirected to Gluu SP where dynamic enrolment of the user will be done if user doesn't exists in the system. 
-Then user will be redirected to the website which was requested.
-
 ### IDP Auth
 
-#### Followed This Link For Shiboleth Config
+There are two setups of Gluu server
+1. https://gluu.local.org
+2. https://gluu.idp.org
 
+Here https://gluu.local.org works as SP and https://gluu.idp.org is configured as IDP.
+
+#### Followed This Link For Shiboleth Configuration
 https://gluu.org/docs/integrate/ubuntu-shib-apache/
 
-##### Response
+Followed all the steps in the link for configuration.
+After completeing all the steps, testing the printHeaders.py script didn't gave any error and instead it prints the script itself and now it is giving this error unable to locate metadata for IDP.
+
+##### Error
 ![image](https://github.com/arvindsinghtomar/idp-initiated-auth/blob/master/ErrorInMataData.png)
 
 #### Followed This Link For Configuring outbound-SAML
